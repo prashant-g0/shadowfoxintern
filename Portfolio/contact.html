@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Prashant's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Prashant's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-page">
+            <div class="contact-container">
+                <h1>Contact Me</h1>
+                <form action="submitForm.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Full name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject of query" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Message" required></textarea>
+                    
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+                <p class="alternative-contact">Not a fan of contact forms? <br> Email: <a href="#">dummy.prashantg0@gmail.com</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-first" style="color: white;">Prashant's Portfolio <br> Frontend Developer <br> Prompt Engineer <br> First Year <br> BTech CSE <br> Pimpri Chinchwad University <br> Pune.</div>
+        <div class="footer-second">
+            <ul>
+              <li><a href="index.html" style="color: white;">Home</a></li>
+              <li><a href="about.html" style="color: white;">About me</a></li>
+              <li><a href="project.html" style="color: white;">Projects</a></li>
+              <li><a href="#" style="color: white;">Resume</a></li>
+              <li><a href="contact.html" style="color: white;">Contact me</a></li>
+            </ul>
+          </div>
+          <div class="footer-second">
+            <ul>
+              <li><a href="https://linkedin.com/in/prashant-g0" target="_blank" style="color: white;">LinkedIn</a></li>
+              <li><a href="https://github.com/PrashantGupta0" target="_blank" style="color: white;">GitHub</a></li>
+              <li><a href="https://instagram.com/prashantg.0" target="_blank" style="color: white;">Instagram</a></li>
+              <li><a href="index.html" style="color: white;">Portfolio</a></li>
+              <li><a href="contact.html" style="color: white;">Work with me</a></li>
+            </ul>
+          </div>
+    </footer>
+
+    <div class="footer-rights">
+        &#169; www.prashantportfolio.com | All Rights Reserved
+    </div>
+</body>
+</html>

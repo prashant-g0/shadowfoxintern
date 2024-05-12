@@ -1,0 +1,109 @@
+/* Work Experience Section */
+.work-experience {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.experience-item {
+    width: 30%;
+    height: 450px; 
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.work-description{
+    text-align: left;
+    padding: 20px;
+}
+
+/* Featured Project Section */
+.featured-project {
+    background-color: #483D8B;
+    color: white;
+    text-align: left;
+    padding: 20px;
+}
+
+.project-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-content img {
+    height: 250px;
+    width: 250px;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-top: -123px;
+}
+
+.project-description {
+    width: 80%;
+}
+
+.button {
+    background-color: #6A5ACD;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Motivation Pictures Section */
+.motivation-pictures {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.motivation-pictures img {
+    width: 20%; 
+    height: auto;
+    border-radius: 5px; 
+}
+
+/* Media query for smaller devices */
+@media only screen and (max-width: 768px) {
+    .work-heading{
+        margin-top: -130px;
+    }
+    /* Work Experience Section */
+    .work-experience .experience-item {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        width: 100%; /* Adjusted width */
+    }
+
+    .project-content{
+        flex-direction: column;
+        margin-top: 130px;
+        margin-left: 16px;
+    }
+
+    .featured-sol{
+        display: none;
+    }
+
+    .project-description{
+        width: 100%;
+    }
+
+    /* Featured Project Section */
+    .project-content img {
+        width: 100%; /* Adjusted width */
+    }
+
+    .motivation-head{
+        font-size: 22px;
+        display: none;
+    }
+
+    /* Motivation Pictures Section */
+    .motivation-pictures img {
+        display: none;
+    }
+}

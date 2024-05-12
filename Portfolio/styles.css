@@ -1,0 +1,245 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  background-color: rgb(16, 16, 90);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navigation styles */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(43, 43, 199);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(153, 153, 226);
+  font-size: 1.06rem;
+}
+
+.left {
+  font-size: 2rem;
+}
+
+/* Section styling */
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.firstsection > div {
+  width: 40%;
+}
+
+.leftsection {
+  font-size: 2.5rem;
+  margin-bottom: 90px;
+}
+
+.rightsection img {
+  width: 80%;
+  margin-left: 60px;
+}
+
+.text-purple {
+  color: rgb(170, 107, 228);
+}
+
+.button {
+  padding: 10px 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.hire-me { background-color: white; color: black; }
+
+#element {
+  color: rgb(170, 107, 228);
+}
+
+main hr {
+  border: 0;
+  height: 2px;
+  margin: 20px 40px;
+  background: rgb(146, 54, 233);
+}
+
+.secondsection {
+  max-width: 80vh;
+  margin: 0 60px;
+  height: 80vh;
+}
+
+.secondsection .gray {
+  color: gray;
+}
+
+.secondsection h1 {
+  margin-top: -10px;
+  font-size: 2rem;
+}
+
+.secondsection .box {
+  background-color: white;
+  width: 82vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.secondsection .vertical {
+  background: white;
+  height: 93px;
+  width: 1px;
+  margin: 0 100px;
+}
+
+.image-top {
+  width: 25px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+
+.vertical-title {
+  position: relative;
+  top: 75px;
+  right: 50px;
+  width: 150px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  right: 50px;
+  width: 150px;
+  color: gray;
+  font-size: 10px;
+}
+
+footer {
+  background-color: rgb(41, 3, 122);
+  height: 233px;
+}
+
+.footer {
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer > div {
+  width: 223px;
+}
+
+.footer-rights {
+  text-align: center;
+  background-color: rgb(41, 3, 122);
+  color: gray;
+  padding: 12px 0;
+}
+
+/* Main Class "Work Experience" Styles */
+@media only screen and (max-width: 768px) {
+  nav {
+    padding: 10px;
+    height: 100px;
+    width: fit-content;
+  }
+  .left {
+    font-size: medium;
+  }
+
+  .right{
+    font-size: smaller;
+  }
+
+  .firstsection{
+    flex-direction: column-reverse;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 100%;
+  }
+
+  .firstsection > div {
+    width: 100%;
+  }
+
+  .rightsection img {
+    width: 50%;
+    margin-left: 70px;
+  }
+
+  .leftsection{
+    margin-top: 30px;
+    font-size: 30px;
+  }
+
+  main hr{
+    display: none;
+  }
+  .secondsection {
+    display: none; /* Hide for smaller devices */
+  }
+
+  .work-experience {
+    flex-direction: column; /* Display in vertical manner for smaller devices */
+  }
+
+
+/* Main Class "Featured Project" Styles */
+.featured-project img {
+  width: 150px; /* Decreased image size */
+  height: auto;
+  margin-bottom: 20px; /* Adjusted margin */
+}
+
+/* Footer Styles */
+.footer {
+  height: auto; /* Adjusted height */
+  padding-left: 30px; /* Adjusted padding */
+}
+
+.footer-first {
+  display: none;
+}
+
+.footer-rights{
+  font-size: smaller;
+}
+
+}

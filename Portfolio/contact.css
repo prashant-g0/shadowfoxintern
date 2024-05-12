@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(16, 16, 90);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(43, 43, 199);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.06rem;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.contact-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    padding: 20px;
+}
+
+.contact-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    color: rgb(16, 16, 90);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contact-container h1, .contact-container label, .alternative-contact {
+    color: rgb(43, 43, 199);
+}
+
+.contact-container input[type="text"],
+.contact-container input[type="email"],
+.contact-container textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-button {
+    background-color: rgb(43, 43, 199);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: rgb(16, 16, 90);
+}
+
+.alternative-contact {
+    margin-top: 20px;
+    text-align: left;
+    font-size: small;
+}
+
+.alternative-contact a {
+    color: rgb(170, 107, 228);
+}
+
+footer {
+    background-color: rgb(41, 3, 122);
+    color: gray;
+    padding: 12px 0;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    nav {
+        padding: 10px;
+        height: 100px;
+        width: fit-content;
+      }
+      .left {
+        font-size: medium;
+      }
+    
+      .right{
+        font-size: smaller;
+      }
+
+    .contact-container {
+        padding: 10px;
+    }
+}
