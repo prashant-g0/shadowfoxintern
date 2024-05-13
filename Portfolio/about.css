@@ -107,7 +107,7 @@
     }
 
     .button {
-        margin-bottom: 10px; /* Adds space between buttons when stacked */
+        margin-bottom: 10px; 
     }
 
     .education-section {
@@ -143,10 +143,10 @@
 
 @media (max-width: 480px) {
     .profile-info h1 {
-        font-size: 1.5rem; /* Adjust font size for very small devices */
+        font-size: 1.5rem;
     }
 
     .button {
-        padding: 8px 16px; /* Smaller buttons on very small devices */
+        padding: 8px 16px;
     }
 }
