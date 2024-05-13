@@ -173,7 +173,7 @@ footer {
   padding: 12px 0;
 }
 
-/* Main Class "Work Experience" Styles */
+/* responsive stylin for various devices */
 @media only screen and (max-width: 768px) {
   nav {
     padding: 10px;
@@ -213,25 +213,25 @@ footer {
     display: none;
   }
   .secondsection {
-    display: none; /* Hide for smaller devices */
+    display: none; 
   }
 
   .work-experience {
-    flex-direction: column; /* Display in vertical manner for smaller devices */
+    flex-direction: column; 
   }
 
 
-/* Main Class "Featured Project" Styles */
+/* "Featured Project" */
 .featured-project img {
-  width: 150px; /* Decreased image size */
+  width: 150px; 
   height: auto;
-  margin-bottom: 20px; /* Adjusted margin */
+  margin-bottom: 20px; 
 }
 
 /* Footer Styles */
 .footer {
-  height: auto; /* Adjusted height */
-  padding-left: 30px; /* Adjusted padding */
+  height: auto; 
+  padding-left: 30px; 
 }
 
 .footer-first {
