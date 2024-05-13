@@ -1,4 +1,4 @@
-/* Work Experience Section */
+/* work experience */
 .work-experience {
     display: flex;
     justify-content: space-around;
@@ -17,7 +17,7 @@
     padding: 20px;
 }
 
-/* Featured Project Section */
+/* featured projects */
 .featured-project {
     background-color: #483D8B;
     color: white;
@@ -53,7 +53,7 @@
     margin-top: 10px;
 }
 
-/* Motivation Pictures Section */
+/* motivation section */
 .motivation-pictures {
     display: flex;
     justify-content: space-around;
@@ -66,16 +66,16 @@
     border-radius: 5px; 
 }
 
-/* Media query for smaller devices */
+/* Media query */
 @media only screen and (max-width: 768px) {
     .work-heading{
         margin-top: -130px;
     }
-    /* Work Experience Section */
+    
     .work-experience .experience-item {
         margin-left: 20px;
         margin-bottom: 20px;
-        width: 100%; /* Adjusted width */
+        width: 100%; 
     }
 
     .project-content{
@@ -92,9 +92,8 @@
         width: 100%;
     }
 
-    /* Featured Project Section */
     .project-content img {
-        width: 100%; /* Adjusted width */
+        width: 100%; 
     }
 
     .motivation-head{
@@ -102,7 +101,6 @@
         display: none;
     }
 
-    /* Motivation Pictures Section */
     .motivation-pictures img {
         display: none;
     }
