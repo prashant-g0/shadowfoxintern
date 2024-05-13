@@ -40,26 +40,26 @@
 /* Media Queries for Responsive Adjustments */
 @media (max-width: 768px) {
     .project-content {
-        flex-direction: column; /* Stack image and description vertically on smaller screens */
-        text-align: center; /* Center-align the text */
+        flex-direction: column; 
+        text-align: center;
     }
 
     .project-image {
-        width: 80%; /* Adjust image width for smaller screens */
-        margin: 0 auto 20px; /* Center image and add margin below */
+        width: 80%; 
+        margin: 0 auto 20px; 
     }
 
     .project-description {
-        width: 100%; /* Description takes full width on small screens */
+        width: 100%; 
     }
 }
 
 @media (max-width: 480px) {
     .projects {
-        padding: 10px; /* Less padding on very small screens */
+        padding: 10px; 
     }
 
     .project {
-        padding: 10px; /* Smaller padding inside project boxes */
+        padding: 10px; 
     }
 }
