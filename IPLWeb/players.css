@@ -1,0 +1,95 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card {
+    width: 18%; 
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card h3 {
+    color: #333;
+
+}
+
+.item-name {
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
+.price {
+    margin: 5px;
+    font-size: 0.7em;
+    color: #555;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #003d7a;
+}
+
+#links{
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    .card {
+        width: 23%; /* fit 4 items per row */
+    }
+}
+
+@media (max-width: 992px) {
+    .card {
+        width: 30%; /* fit 3 items per row */
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 45%; /* fit 2 items per row */
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: 90%; /* fit 1 item per row */
+    }
+}
+
+/* Adjust font sizes for smaller devices */
+@media (max-width: 768px) {
+    .item-name {
+        font-size: 1em;
+    }
+
+    .price {
+        font-size: 0.6em;
+    }
+
+    button {
+        padding: 6px 12px;
+        font-size: 0.9em;
+    }
+}
