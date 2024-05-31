@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <div class="logo">
+        <img src="assets/logo.png" alt="Coffee Shop Logo" />
+      </div>
+      <nav>
+        <ul class="sidebar">
+          <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#black"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+          <img height="100px" src="assets/logo.png" alt="Coffee Shop Logo" />
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Coffee</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <ul>
+          <li class="hideNav"><a href="#home">Home</a></li>
+          <li class="hideNav"><a href="#about">About</a></li>
+          <li class="hideNav"><a href="#products">Coffee</a></li>
+          <li class="hideNav"><a href="#reviews">Reviews</a></li>
+          <li class="hideNav"><a href="#Contact">Contact</a></li>
+          <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="black"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Home Section -->
+    <main>
+      <section id="home" class="slider">
+        <div class="slides">
+          <div class="slide">
+            <img src="assets/hero_img1.jpg" alt="Coffee Image 1" />
+            <div class="msg">
+              <p class="welc">WELCOME!</p>
+              <p class="para">
+                We serve the richest coffee <br />
+                in the city!
+              </p>
+              <a href="#contact">
+                <button
+                  class="order-now"
+                >
+                  Order Now
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div class="slide">
+            <img src="assets/Banner img1.png" alt="Coffee Image 2" />
+          </div>
+          <div class="slide">
+            <img src="assets/Banner img2.png" alt="Coffee Image 3" />
+          </div>
+          <div class="slide">
+            <img src="assets/Banner img3.png" alt="Coffee Image 4" />
+          </div>
+          <div class="slide">
+            <img src="assets/Banner img4.jpeg" alt="Coffee Image 5" />
+          </div>
+        </div>
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
+      </section>
+
+      <!-- Quality Section -->
+      <section id="quality">
+        <div class="quality-item">
+          <img src="assets/quality1.png" alt="Quality 1" />
+          <h3>AWESOME AROMA</h3>
+        </div>
+        <div class="quality-item">
+          <img src="assets/quality2.png" alt="Quality 2" />
+          <h3>HIGH QUALITY</h3>
+        </div>
+        <div class="quality-item">
+          <img src="assets/quality3.png" alt="Quality 3" />
+          <h3>PURE GRADES</h3>
+        </div>
+        <div class="quality-item">
+          <img src="assets/quality4.png" alt="Quality 4" />
+          <h3>PROPER ROASTING</h3>
+        </div>
+      </section>
+
+      <!-- About Us Section -->
+      <section id="about">
+        <div class="about-container">
+        <img src="assets/About Us img.png" alt="About Us" />
+        <div class="about-text">
+          <h2>
+            Best Coffee House In <br />
+            Your Home Town
+          </h2>
+          <p style="font-size: 22px; font-weight: 600; font-family: cursive">
+            Welcome to TANJORE
+          </p>
+          <p>
+            In the year of 2013 Jan 22nd, Shri C.Saminathan who has packed 35+
+            years of experience in FMCG Industry laid the foundation for his
+            Coffee Decoction under the brand name of ‘ TANJORE ‘ Degree Coffee.
+            <br />
+            <br />
+            Our incridible team comes from farmer families who have worked hard
+            and have experience of many decades.
+          </p>
+        </div>
+      </div>
+      </section>
+
+      <!-- Product Listing Section -->
+      <section id="products">
+        <div class="product-list">
+          <div class="product-card">
+            <img src="products/product1.jpg" alt="Product 1" />
+            <h3>Product 1</h3>
+            <p>₹10.00</p>
+            <button>Order</button>
+          </div>
+          <div class="product-card">
+            <img src="products/product10.jpg" alt="Product 2" />
+            <h3>Filter Coffee</h3>
+            <p>₹12.00</p>
+            <button>Order</button>
+          </div>
+          <div class="product-card">
+            <img src="products/product2.jpg" alt="Product 3" />
+            <h3>Product 3</h3>
+            <p>₹12.00</p>
+            <button>Order</button>
+          </div>
+          <div class="product-card">
+            <img src="products/product3.jpg" alt="Product 4" />
+            <h3>Product 4</h3>
+            <p>₹12.00</p>
+            <button>Order</button>
+          </div>
+          <div class="product-card">
+            <img src="products/product4.jpg" alt="Product 5" />
+            <h3>Product 5</h3>
+            <p>₹12.00</p>
+            <button>Order</button>
+          </div>
+          <div class="product-card">
+            <img src="products/product6.jpg" alt="Product 6" />
+            <h3>Product 6</h3>
+            <p>₹12.00</p>
+            <button>Order</button>
+          </div>
+          <div class="product-card">
+            <img src="products/product11.jpg" alt="Product 7" />
+            <h3>Product 7</h3>
+            <p>₹12.00</p>
+            <button>Order</button>
+          </div>
+          <div class="product-card">
+            <img src="products/product7.jpg" alt="Product 8" />
+            <h3>Product 8</h3>
+            <p>₹12.00</p>
+            <button>Order</button>
+          </div>
+          <div class="product-card">
+            <img src="products/product8.jpg" alt="Product 9" />
+            <h3>Product 9</h3>
+            <p>₹12.00</p>
+            <button>Order</button>
+          </div>
+          <div class="product-card">
+            <img src="products/product9.png" alt="Product 10" />
+            <h3>Product 10</h3>
+            <p>₹12.00</p>
+            <button>Order</button>
+          </div>
+          <div class="product-card">
+            <img src="products/product3.jpg" alt="Product 11" />
+            <h3>Product 11</h3>
+            <p>₹12.00</p>
+            <button>Order</button>
+          </div>
+          <!-- More product cards -->
+        </div>
+      </section>
+
+      <!-- Subscribe Section -->
+      <section id="subscribe">
+        <img src="assets/subs2_img.png" alt="Background" />
+        <div>
+          <h2>Subscribe</h2>
+          <p style="font-size: 17px">
+            To get Discounts, Coupons, News, and lot more.
+          </p>
+          <input type="email" placeholder="Your email" />
+          <button>Subscribe</button>
+        </div>
+      </section>
+
+      <!-- review Section -->
+      <section id="reviews">
+        <h2>OUR HAPPY CUSTOMERS</h2>
+        <div class="review-container">
+          <div class="review">
+            <div class="review-header">
+              <h3>Priya</h3>
+              <div class="stars">
+                &#9733;&#9733;&#9733;&#9733;&#9733;
+                <!-- 5 out of 5 stars -->
+              </div>
+            </div>
+            <p class="review-description">
+              I've been a fan of jayam rose milk & amp coffee for years, and
+              their decoction makers has truely been a game-changer for me. As
+              someone who values both authenticity and convenience, I am able to 
+              brew authentic South Indian filter coffee at home.
+            </p>
+          </div>
+          <div class="review">
+            <div class="review-header">
+              <h3>Rajesh</h3>
+              <div class="stars">
+                &#9733;&#9733;&#9733;&#9733;
+                <!-- 4 out of 5 stars -->
+              </div>
+            </div>
+            <p class="review-description">
+              Indulging in rose milk and filter coffee at this quaint cafe was an absolute delight.
+            </p>
+          </div>
+          <div class="review">
+            <div class="review-header">
+              <h3>Mahesh Jagtap</h3>
+              <div class="stars">
+                &#9733;&#9733;&#9733;&#9733;&#9734;
+                <!-- 4 out of 5 stars -->
+              </div>
+            </div>
+            <p class="review-description">
+              Great place to hang out with friends and enjoy a cup of coffee.
+              The flavors are unique and delightful.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="Contact">
+        <div class="contact-body">
+          <img class="contact-img"
+            style="height: 100%"
+            src="assets/getintouch.png"
+            alt="Background"
+          />
+          <div style="display: flex; flex-direction: column; gap: 10px">
+            <h2>Get in touch</h2>
+            <input style="width: 250px" type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Your email" />
+            <input style="height: 60px" type="textarea" placeholder="Message" />
+            <button
+              style="width: 270px; border-radius: 5px; margin-bottom: 40px"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-overlay"></div>
+        <div class="footer-container">
+          <div class="footer-column">
+            <img src="assets/logo.png" alt="Coffee Shop Logo" />
+            <h3>Tanjore Degree Coffee.</h3>
+            <div class="social-media">
+              <a href="#"><img src="assets/fb_icon.png" alt="facebook" /></a>
+              <a href="#"
+                ><img src="assets/insta_icon.png" alt="instagram"
+              /></a>
+              <a href="#"
+                ><img src="assets/twitter_icon.png" alt="twitter"
+              /></a>
+              <a href="#"><img src="assets/WA_icon.png" alt="whatsapp" /></a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3 style="color: white">Contact Us</h3>
+            <p>
+              Address: Tanjore Degree Coffee,<br />
+              Anna Nagar West Extn., <br />Chennai -600101.
+            </p>
+            <br />
+            <p>Phone: +91 9003106755</p>
+            <br />
+            <p>Email: tanjoredegreecoffee@yahoo.in</p>
+            <br />
+          </div>
+          <div class="footer-column">
+            <h3 style="margin-top: 35px">Viewer Guide</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <br />
+              <li><a href="#about">About</a></li>
+              <br />
+              <li><a href="#products">Coffee</a></li>
+              <br />
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p style="margin-bottom: 10px">
+          &copy; 2024 Tanjore. All rights reserved.
+        </p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+
+    <script>
+      function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+      }
+
+      function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+      }
+    </script>
+  </body>
+</html>
