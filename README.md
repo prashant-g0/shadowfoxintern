@@ -6,6 +6,6 @@
 
 <h2>🚀 Demo</h2>
 
-<p>Project 1: <p>[https://shadowfoxtask1.netlify.app/](https://shadowfoxtask1.netlify.app/) <br>
-<p>Project 2: <p>[https://shadowfoxtask2.netlify.app/](https://shadowfoxtask2.netlify.app/) <br>
-<p>Project 3: <p>[https://shadowfoxtask3.netlify.app/](https://shadowfoxtask3.netlify.app/) <br>
+<p>Project 1: <p> (https://shadowfoxtask1.netlify.app/) <br>
+<p>Project 2: <p> (https://shadowfoxtask2.netlify.app/) <br>
+<p>Project 3: <p> (https://shadowfoxtask3.netlify.app/) <br>
